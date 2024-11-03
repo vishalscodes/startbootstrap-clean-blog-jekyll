@@ -1,4 +1,4 @@
-<!-- Navigation -->
+<!-- 
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
   <div class="container">
     <a class="navbar-brand" href="{{"/" | relative_url }}">{{ site.title | escape }}</a>
@@ -26,6 +26,37 @@
           </a>
         </li>
       </ul>
+    </div>
+  </div>
+</nav> -->
+
+<nav class="navbar is-fixed-top is-light" id="mainNav">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="{{"/" | relative_url }}">{{ site.title | escape }}</a>
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div id="navMenu" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="{{"/" | relative_url }}">Home</a>
+        <a class="navbar-item" href="{{"/about" | relative_url }}">About</a>
+        <a class="navbar-item" href="{{ "/posts" | relative_url }}">Posts</a>
+        <a class="navbar-item" href="{{"/contact" | relative_url }}">Contact</a>
+        <div class="navbar-item">
+          <a class="dark-mode-button">
+            <span class="icon" id="icon-dark">
+              <i class="fa fa-moon"></i>
+            </span>
+            <span class="icon" id="icon-light" style="display: none;">
+              <i class="fa fa-sun"></i>
+            </span>
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 </nav>
