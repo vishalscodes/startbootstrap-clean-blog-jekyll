@@ -31,8 +31,7 @@
 </nav> -->
 
 <nav class="navbar is-fixed-top is-light" id="mainNav">
-  <div class="container">
-    <span class="navbar-brand">
+    <div class="navbar-brand">
       <a class="navbar-item" href="{{"/" | relative_url }}">{{ site.title | escape }}</a>
       <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
         <span aria-hidden="true"></span>
@@ -40,8 +39,8 @@
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
       </a>
-    </span>
-    <span id="navMenu" class="navbar-menu">
+    </div>
+    <div id="navMenu" class="navbar-menu">
       <div class="navbar-end">
         <a class="navbar-item" href="{{"/" | relative_url }}">Home</a>
         <a class="navbar-item" href="{{"/about" | relative_url }}">About</a>
@@ -58,6 +57,5 @@
           </a>
         </div>
       </div>
-    </span>
-  </div>
+    </div>
 </nav>
