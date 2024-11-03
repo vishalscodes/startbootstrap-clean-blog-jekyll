@@ -26,4 +26,5 @@ plugins:
 
 # For form to work
 formspree:
-  form_id: <your-formspree-form-id>
+  form_id: <your-formspree-form-id> # Eg: form_id: mjvljyaa
+  
