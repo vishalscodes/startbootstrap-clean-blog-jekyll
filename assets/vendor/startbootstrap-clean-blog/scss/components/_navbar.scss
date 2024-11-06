@@ -30,6 +30,7 @@
   }
 
   @media only screen and (min-width: 992px) {
+    $bulma-navbar-item-color: $white;
     border-bottom: 1px solid transparent;
     background: transparent;
 
@@ -47,7 +48,6 @@
         > a {
           padding: 10px 20px;
           color: $white;
-          $bulma-navbar-item-color: $white;
 
           &:focus,
           &:hover {
