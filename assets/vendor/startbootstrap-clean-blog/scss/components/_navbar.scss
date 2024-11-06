@@ -56,10 +56,9 @@
       }
     }
 
-    .navbar-nav {
-      > li.nav-item {
-        $bulma-navbar-item-color: $white;
-      }
+    .navbar-item,
+    .navbar-link {
+      color: white;
     }
   }
 
