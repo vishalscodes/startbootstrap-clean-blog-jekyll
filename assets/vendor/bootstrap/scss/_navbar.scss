@@ -48,7 +48,7 @@
 // Used for brand, project, or site names.
 
 .navbar-brand {
-  width: 100%;
+  display: inline-block;
   padding-top: $navbar-brand-padding-y;
   padding-bottom: $navbar-brand-padding-y;
   margin-right: $navbar-padding-x;
