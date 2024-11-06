@@ -9323,8 +9323,6 @@ img::-moz-selection {
 #mainNav .navbar-brand {
   font-weight: 800;
   color: #343a40;
-  display: inline;
-  width: 100%;
 }
 #mainNav .navbar-toggler {
   font-size: 12px;
@@ -9392,6 +9390,12 @@ img::-moz-selection {
   }
 }
 
+@media only screen and (max-width: 992px) {
+  .navbar-brand {
+    display: flex;
+    width: 100%;
+  }
+}
 .floating-label-form-group {
   font-size: 14px;
   position: relative;
