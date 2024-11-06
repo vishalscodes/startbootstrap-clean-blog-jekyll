@@ -8,8 +8,6 @@
   .navbar-brand {
     font-weight: 800;
     color: $gray-800;
-    display: inline;
-    width: 100%;
   }
 
   .navbar-toggler {
@@ -38,7 +36,6 @@
     .navbar-brand {
       padding: 10px 20px;
       color: $white;
-
       &:focus,
       &:hover {
         color: fade-out($white, 0.2);
@@ -114,5 +111,11 @@
       -o-transform: translate3d(0, 100%, 0);
       transform: translate3d(0, 100%, 0);
     }
+  }
+}
+@media only screen and (max-width: 992px) {
+  .navbar-brand {
+    display: inline;
+    width: 100%;
   }
 }
