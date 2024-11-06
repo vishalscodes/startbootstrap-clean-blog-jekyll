@@ -48,7 +48,7 @@
 // Used for brand, project, or site names.
 
 .navbar-brand {
-  display: inline-block;
+  width: 100%;
   padding-top: $navbar-brand-padding-y;
   padding-bottom: $navbar-brand-padding-y;
   margin-right: $navbar-padding-x;
@@ -67,7 +67,7 @@
 
 .navbar-nav {
   display: flex;
-  flex-direction: row; // cannot use `inherit` to get the `.navbar`s value
+  flex-direction: column; // cannot use `inherit` to get the `.navbar`s value
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
