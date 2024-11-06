@@ -47,6 +47,7 @@
         > a {
           padding: 10px 20px;
           color: $white;
+          $bulma-navbar-item-color: $white;
 
           &:focus,
           &:hover {

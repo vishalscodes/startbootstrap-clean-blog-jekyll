@@ -1,8 +1,8 @@
-# [Start Bootstrap - Clean Blog Jekyll](https://startbootstrap.com/themes/clean-blog-jekyll/) - Official Jekyll Version
+# [Start Bootstrap - Clean Blog Jekyll](https://startbootstrap.com/themes/clean-blog-jekyll/) - Unofficial Jekyll Version
 
-[Clean Blog Jekyll](https://startbootstrap.com/themes/clean-blog-jekyll/) is a stylish, responsive blog theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features a blog homepage, about page, contact page, and an example post page along with a working contact form powered by [Formspree](https://formspree.io/).
+[Clean Blog Jekyll](https://startbootstrap.com/themes/clean-blog-jekyll/) is a stylish, responsive blog theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This repository is an improved version of this theme. This theme features a blog homepage, about page, contact page, and an example post page along with a working contact form powered by [Formspree](https://formspree.io/).
 
-This repository holds the official Jekyll version of the Clean Blog theme on Start Bootstrap!
+This repository holds the unofficial Jekyll version of the Clean Blog theme on Start Bootstrap!
 
 ## Preview
 
@@ -63,77 +63,7 @@ Assuming there are no errors and the site is building properly, follow these ste
 
    For reference, look at the [demo repository](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll) to see how the files are set up.
 
-5. Add the form to the `contact.html` page. Add the following code to your `contact.html` page:
-
-   ```html
-   <form name="sentMessage" id="contactForm" novalidate>
-     <div class="control-group">
-       <div class="form-group floating-label-form-group controls">
-         <label>Name</label>
-         <input
-           type="text"
-           class="form-control"
-           placeholder="Name"
-           id="name"
-           required
-           data-validation-required-message="Please enter your name."
-         />
-         <p class="help-block text-danger"></p>
-       </div>
-     </div>
-     <div class="control-group">
-       <div class="form-group floating-label-form-group controls">
-         <label>Email Address</label>
-         <input
-           type="email"
-           class="form-control"
-           placeholder="Email Address"
-           id="email"
-           required
-           data-validation-required-message="Please enter your email address."
-         />
-         <p class="help-block text-danger"></p>
-       </div>
-     </div>
-     <div class="control-group">
-       <div class="form-group col-xs-12 floating-label-form-group controls">
-         <label>Phone Number</label>
-         <input
-           type="tel"
-           class="form-control"
-           placeholder="Phone Number"
-           id="phone"
-           required
-           data-validation-required-message="Please enter your phone number."
-         />
-         <p class="help-block text-danger"></p>
-       </div>
-     </div>
-     <div class="control-group">
-       <div class="form-group floating-label-form-group controls">
-         <label>Message</label>
-         <textarea
-           rows="5"
-           class="form-control"
-           placeholder="Message"
-           id="message"
-           required
-           data-validation-required-message="Please enter a message."
-         ></textarea>
-         <p class="help-block text-danger"></p>
-       </div>
-     </div>
-     <br />
-     <div id="success"></div>
-     <div class="form-group">
-       <button type="submit" class="btn btn-primary" id="sendMessageButton">
-         Send
-       </button>
-     </div>
-   </form>
-   ```
-
-   Make sure you have the `email` setting in your `_config.yml` file set to a working email address! Once this is set, fill out the form and then check your email, verify the email address using the link sent to you by Formspree, and then the form will be working!
+5. To be able to use the form to the `contact.html` page, make sure you have the `email` setting in your `_config.yml` file set to a working email address and the `form_id` setting to your actual Formspree `form_id`. Once this is set, fill out the form and then check your email, verify the email address using the link sent to you by Formspree, and then the form will be working!
 
 6. Build your site: `bundle exec jekyll serve`
 
@@ -141,7 +71,7 @@ Assuming there are no errors and the site is building properly, follow these ste
 
 When using the core files, the demo images, posts, and pages are all included with the download. After following the instructions below, you can then go and change the content of the pages and posts.
 
-1. [Download](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll/archive/master.zip) or Clone the repository.
+1. [Download](https://github.com/vishalscodes/startbootstrap-clean-blog-jekyll/archive/refs/heads/master.zip) or Clone the repository.
 2. Update the following configuration settings in your `_config.yml` file:
 
    - `baseurl`
