@@ -42,6 +42,10 @@
       }
     }
 
+    .fa-moon {
+    color: white;
+    }
+
     .navbar-nav {
       > li.nav-item {
         > a {
@@ -122,8 +126,5 @@
   .navbar-brand {
     display: flex;
     width: 100%;
-  }
-  .fa-moon {
-    color: white;
   }
 }
