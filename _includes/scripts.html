@@ -4,11 +4,12 @@
 
 <script src="{{"/assets/scripts.js" | relative_url }}"></script>
 
-<!-- {% if page.url contains 'contact' %}
+{% if page.url contains 'contact' %}
   <!-- Form Validation -->
   <script src="{{"/assets/vendor/startbootstrap-clean-blog/js/jqBootstrapValidation.js" | relative_url }}"></script>
   <!-- Send Form -->
   <script>
+    /*
     $(function () {
 
       $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
@@ -29,7 +30,7 @@
             firstName = name.split(' ').slice(0, -1).join(' ');
           }
 
-          /* $this = $("#sendMessageButton");
+          $this = $("#sendMessageButton");
           $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
           $.ajax({
             url: "//formspree.io/{{ site.email }}",
@@ -38,7 +39,7 @@
               name: name,
               phone: phone,
               email: email,
-              message: message */
+              message: message
             },
             cache: false,
             success: function () {
@@ -77,12 +78,12 @@
       });
     });
 
-    /*When clicking on Full hide fail/success boxes */
+    // When clicking on Full hide fail/success boxes
     $('#name').focus(function () {
       $('#success').html('');
-    });
+    }); */
   </script>
-{% endif %} -->
+{% endif %}
 <script>
   document.getElementsByClassName('dark-mode-button')[0].onclick = function() {
     darkmode()
