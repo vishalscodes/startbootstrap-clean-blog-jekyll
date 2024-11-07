@@ -63,7 +63,7 @@ Assuming there are no errors and the site is building properly, follow these ste
 
    For reference, look at the [demo repository](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll) to see how the files are set up.
 
-5. To be able to use the form to the `contact.html` page, make sure you have the `email` setting in your `_config.yml` file set to a working email address and the `form_id` setting to your actual Formspree `form_id`. Once this is set, fill out the form and then check your email, verify the email address using the link sent to you by Formspree, and then the form will be working!
+5. To be able to use the form to the `contact.html` page, make sure you have the `email` setting in your `_config.yml` file set to a working email address and the `form_id` setting to your actual Formspree form's ID. Once this is set, fill out the form and then check your email, verify the email address using the link sent to you by Formspree, and then the form will be working!
 
 6. Build your site: `bundle exec jekyll serve`
 
@@ -80,6 +80,7 @@ When using the core files, the demo images, posts, and pages are all included wi
    - `email` (after setting this setting to a working email address, fill out the form on the contact page and send it - then check your email and verify the address and the form will send you messages when used)
    - `description`
    - `author`
+   - `form_id` (if you want the form to work)
    - `twitter_username` (Optional)
    - `facebook_username` (Optional)
    - `github_username` (Optional)
