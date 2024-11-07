@@ -9314,64 +9314,64 @@ img::-moz-selection {
   padding: 25px 35px;
 }
 
-#mainNav {
+#html #body #mainNav {
   position: absolute;
   border-bottom: 1px solid #e9ecef;
   background-color: white;
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-#mainNav .navbar-brand {
+#html #body #mainNav .navbar-brand {
   font-weight: 800;
   color: #343a40;
 }
-#mainNav .navbar-toggler {
+#html #body #mainNav .navbar-toggler {
   font-size: 12px;
   font-weight: 800;
   padding: 13px;
   text-transform: uppercase;
   color: #343a40;
 }
-#mainNav .navbar-nav > li.nav-item > a {
-  font-size: 12px !important;
-  font-weight: 800 !important;
-  letter-spacing: 1px !important;
-  text-transform: uppercase !important;
+#html #body #mainNav .navbar-nav > li.nav-item > a {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 @media only screen and (min-width: 992px) {
-  #mainNav {
+  #html #body #mainNav {
     border-bottom: 1px solid transparent;
     background: transparent;
   }
-  #mainNav .navbar-brand {
+  #html #body #mainNav .navbar-brand {
     padding: 10px 20px;
     color: #fff;
   }
-  #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  #html #body #mainNav .navbar-brand:focus, #html #body #mainNav .navbar-brand:hover {
     color: rgba(255, 255, 255, 0.8);
   }
-  #mainNav .fa-moon {
+  #html #body #mainNav .fa-moon {
     color: white;
   }
-  #mainNav .navbar-nav > li.nav-item > a {
+  #html #body #mainNav .navbar-nav > li.nav-item > a {
     padding: 10px 20px;
     color: #fff;
   }
-  #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
+  #html #body #mainNav .navbar-nav > li.nav-item > a:focus, #html #body #mainNav .navbar-nav > li.nav-item > a:hover {
     color: rgba(255, 255, 255, 0.8);
   }
-  #mainNav .navbar-item,
-  #mainNav .navbar-link {
+  #html #body #mainNav .navbar-item,
+  #html #body #mainNav .navbar-link {
     color: white;
   }
 }
 @media only screen and (min-width: 992px) {
-  #mainNav {
+  #html #body #mainNav {
     transition: background-color 0.2s;
     /* Force Hardware Acceleration in WebKit */
     transform: translate3d(0, 0, 0);
     backface-visibility: hidden;
   }
-  #mainNav.is-fixed {
+  #html #body #mainNav.is-fixed {
     /* when the user scrolls down, we hide the header right above the viewport */
     position: fixed;
     top: -67px;
@@ -9379,19 +9379,19 @@ img::-moz-selection {
     border-bottom: 1px solid white;
     background-color: rgba(255, 255, 255, 0.9);
   }
-  #mainNav.is-fixed .navbar-brand {
+  #html #body #mainNav.is-fixed .navbar-brand {
     color: #212529;
   }
-  #mainNav.is-fixed .navbar-brand:focus, #mainNav.is-fixed .navbar-brand:hover {
+  #html #body #mainNav.is-fixed .navbar-brand:focus, #html #body #mainNav.is-fixed .navbar-brand:hover {
     color: #0085A1;
   }
-  #mainNav.is-fixed .navbar-nav > li.nav-item > a {
+  #html #body #mainNav.is-fixed .navbar-nav > li.nav-item > a {
     color: #212529;
   }
-  #mainNav.is-fixed .navbar-nav > li.nav-item > a:focus, #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover {
+  #html #body #mainNav.is-fixed .navbar-nav > li.nav-item > a:focus, #html #body #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover {
     color: #0085A1;
   }
-  #mainNav.is-visible {
+  #html #body #mainNav.is-visible {
     /* if the user changes the scrolling direction, we show the header */
     transform: translate3d(0, 100%, 0);
   }
