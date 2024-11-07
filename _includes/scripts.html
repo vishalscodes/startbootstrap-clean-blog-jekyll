@@ -29,7 +29,7 @@
             firstName = name.split(' ').slice(0, -1).join(' ');
           }
 
-          $this = $("#sendMessageButton");
+          /* $this = $("#sendMessageButton");
           $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
           $.ajax({
             url: "//formspree.io/{{ site.email }}",
@@ -38,9 +38,9 @@
               name: name,
               phone: phone,
               email: email,
-              message: message
+              message: message */
             },
-            cache: false, */
+            cache: false,
             success: function () {
               // Success message
               $('#success').html("<div class='alert alert-success'>");
