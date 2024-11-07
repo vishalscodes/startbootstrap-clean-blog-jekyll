@@ -9363,6 +9363,7 @@ img::-moz-selection {
   #html #body #mainNav .navbar-link {
     color: white;
   }
+  #html #body #mainNav .navbar-item:hover,
   #html #body #mainNav .navbar-link:hover {
     color: #343a40;
   }
