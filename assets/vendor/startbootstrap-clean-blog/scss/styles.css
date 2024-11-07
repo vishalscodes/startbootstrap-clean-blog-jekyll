@@ -9363,8 +9363,8 @@ img::-moz-selection {
   #html #body #mainNav .navbar-link {
     color: white;
   }
-  #html #body #mainNav .navbar-item:hover,
-  #html #body #mainNav .navbar-link:hover {
+  #html #body #mainNav .navbar-item:active,
+  #html #body #mainNav .navbar-link:active {
     color: #343a40;
   }
 }

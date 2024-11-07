@@ -64,8 +64,8 @@
     .navbar-link {
       color: white;
     }
-    .navbar-item:hover,
-    .navbar-link:hover {
+    .navbar-item:active,
+    .navbar-link:active {
       color: $gray-800;
     }
   }
