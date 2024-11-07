@@ -106,10 +106,6 @@
           }
         }
       }
-
-      .fa-moon {
-        color: white;
-      }
     }
 
     &.is-visible {
@@ -126,5 +122,8 @@
   .navbar-brand {
     display: flex;
     width: 100%;
+  }
+  .fa-moon {
+    color: white;
   }
 }
