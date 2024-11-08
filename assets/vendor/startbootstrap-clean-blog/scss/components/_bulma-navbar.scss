@@ -26,11 +26,34 @@
 
     .navbar-burger {
       cursor: pointer;
+      span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px;
+        background-color: #fff;
+        transition: all 0.3s ease;
+      }
+
+      &.is-active {
+        span:nth-child(1) {
+          transform: rotate(45deg) translate(5px, 5px);
+        }
+        span:nth-child(2) {
+          opacity: 0; // Hides the middle bar
+        }
+        span:nth-child(3) {
+          transform: rotate(-45deg) translate(5px, -5px);
+        }
+      }
+    }
+    /*  .navbar-burger {
+      cursor: pointer;
       display: flex;
       align-items: center;
       padding: 0.5em;
       span {
-        background-color: $dark;
+        // background-color: $dark;
         display: block;
         height: 2px;
         width: 18px;
@@ -38,7 +61,7 @@
     }
   }
 
-  .navbar-menu {
+   .navbar-menu {
     display: flex;
     flex-grow: 1;
     justify-content: flex-end;
@@ -46,10 +69,17 @@
 
     &.is-active {
       display: flex;
+    } */
+
+    .navbar-menu {
+      display: none; // Hidden by default on small screens
+    }
+
+    .navbar-burger.is-active + .navbar-menu {
+      display: block; // Show menu when burger icon is active
     }
 
     .navbar-item {
-      padding: 0.5em 1em;
       font-size: 12px;
       font-weight: 800;
       letter-spacing: 1px;

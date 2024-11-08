@@ -127,7 +127,7 @@ function disable() {
   localStorage.setItem('dark-mode', 'false');
 }
 </script>
-<script>
+<!-- <script>
   document.addEventListener('DOMContentLoaded', () => {
 
 // Get all "navbar-burger" elements
@@ -149,4 +149,16 @@ $navbarBurgers.forEach( el => {
 });
 
 });
+</script> -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+  const burger = document.getElementById('navbar-burger');
+  const menu = document.getElementById('navbar-menu');
+
+  burger.addEventListener('click', function () {
+    burger.classList.toggle('is-active');
+    menu.classList.toggle('is-active');
+  });
+});
+
 </script>
