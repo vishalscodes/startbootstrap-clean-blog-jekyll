@@ -1,0 +1,60 @@
+// _bulma-navbar.scss
+
+.navbar {
+  align-items: stretch;
+  display: flex;
+  position: relative;
+  z-index: 30;
+  // background-color: $light; // Adjust to your theme if needed
+
+  &.is-fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 30;
+  }
+
+  .navbar-brand {
+    align-items: stretch;
+    display: flex;
+    flex-shrink: 0;
+
+    .navbar-item {
+      display: flex;
+      align-items: center;
+    }
+
+    .navbar-burger {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      padding: 0.5em;
+      span {
+        background-color: $dark;
+        display: block;
+        height: 2px;
+        width: 18px;
+      }
+    }
+  }
+
+  .navbar-menu {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-items: center;
+
+    &.is-active {
+      display: flex;
+    }
+
+    .navbar-item {
+      padding: 0.5em 1em;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      // color: $text-color;
+    }
+  }
+}
