@@ -18,16 +18,16 @@
     color: $gray-800;
   }
 
-  /* .navbar-nav {
+  .navbar-nav {
     > li.nav-item {
       > a {
-        font-size: 12px !important;
-        font-weight: 800 !important;
-        letter-spacing: 1px !important;
-        text-transform: uppercase !important;
+        font-size: 12px;
+        font-weight: 800;
+        letter-spacing: 1px;
+        text-transform: uppercase;
       }
     }
-  } */
+  }
 
   @media only screen and (min-width: 992px) {
     border-bottom: 1px solid transparent;
