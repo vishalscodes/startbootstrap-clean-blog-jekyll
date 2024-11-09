@@ -7,8 +7,8 @@ Code copyright 2023 Jeremy Thomas. Code released under the MIT license (https://
 @use "sass:map";
 @use "sass:math";
 
-@use "initial-variables" as iv;
-@use "functions" as fn;
+@use "bulma-initial-variables" as iv;
+@use "bulma-functions" as fn;
 
 @function buildVarName($name, $prefix: "", $suffix: "") {
   @return "--#{iv.$cssvars-prefix}#{$prefix}#{$name}#{$suffix}";
